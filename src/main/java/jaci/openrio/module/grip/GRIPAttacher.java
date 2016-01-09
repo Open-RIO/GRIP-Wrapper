@@ -18,7 +18,8 @@ public class GRIPAttacher {
 
     /**
      * Start the GRIP Computer Vision Engine. This will add the GRIP Jar to the classpath and begin loading it in
-     * a new Thread. Call this from your main Robot Program.
+     * a new Thread. Call this from your main Robot Program. If you are using the GRIP Wrapper Toast Module, this is
+     * called for you.
      * @throws GRIPLoadException Thrown if an error is encountered in the loading of GRIP, including missing files,
      *                           and missing class files.
      */
